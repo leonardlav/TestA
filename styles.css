@@ -1,62 +1,60 @@
-.main-container{
-width: 1000px;
-height: 1000px;    
-margin: auto;
-margin-top: 20px;
-margin-bottom: 20px;
-display: flex;
-flex-direction: column;
-
-}
-.head-container{
-background-image: url(imga.jfif);
-height: 500px;
-background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-}
-.menu-container{
-    color: white;
-    padding: 10px;
-    height: 50px;
-    display: flex;
-    flex-direction: row ;
-    justify-content: space-between;
-}
-.title-container{
-    color: white;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
-    font-family: "Source Sans Pro", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.txt-container{
-display: flex;
-flex-direction: column;
-padding: 80px 60px;
+.main-container {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
-.font-container{
-    display: flex;
-    flex-direction: row;
+.head-container {
+  background-image: url(imga.jfif);
+  height: 500px;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
 }
-.fonta{
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+.menu-container {
+  color: white;
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
 }
-.fontb{
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
+.title-container {
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-family: "Source Sans Pro", sans-serif;
 }
-.art-container{
 
+.txt-container {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 60px;
 }
-.line{
-
+.font-container {
+  display: flex;
+  /* flex-direction: row; */
 }
-.some{
-text-align: justify;
+.fonta {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+.fontb {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+.some {
+  text-align: justify;
 }
